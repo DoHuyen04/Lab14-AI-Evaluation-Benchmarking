@@ -1,0 +1,127 @@
+{
+  "product": "NovaCloud",
+  "description": "Knowledge base mô phỏng cho sản phẩm SaaS lưu trữ & cộng tác đám mây 'NovaCloud'. Mỗi document gồm nhiều chunk; ID chunk có dạng '<doc_id>#<index>' và được dùng làm Ground Truth cho việc đánh giá Retrieval (Hit Rate / MRR).",
+  "documents": [
+    {
+      "id": "doc_account",
+      "title": "Tạo tài khoản",
+      "chunks": [
+        "Để tạo tài khoản NovaCloud, truy cập trang Đăng ký, nhập email và mật khẩu, sau đó xác nhận qua email kích hoạt được gửi tới hộp thư. Tài khoản được kích hoạt ngay sau khi nhấn liên kết xác nhận trong email."
+      ]
+    },
+    {
+      "id": "doc_login",
+      "title": "Đăng nhập & khóa tài khoản",
+      "chunks": [
+        "Đăng nhập tại nova.cloud/login bằng email và mật khẩu. Nếu nhập sai mật khẩu 5 lần liên tiếp, tài khoản sẽ bị khóa tạm thời trong 30 phút vì lý do an ninh."
+      ]
+    },
+    {
+      "id": "doc_password",
+      "title": "Đặt lại mật khẩu",
+      "chunks": [
+        "Để đặt lại mật khẩu, nhấn 'Quên mật khẩu' tại trang đăng nhập rồi nhập email; hệ thống gửi một liên kết đặt lại có hiệu lực trong 60 phút. Mật khẩu mới phải có tối thiểu 8 ký tự, gồm chữ hoa, chữ thường và số."
+      ]
+    },
+    {
+      "id": "doc_2fa",
+      "title": "Xác thực 2 lớp (2FA)",
+      "chunks": [
+        "Xác thực 2 lớp (2FA) có thể bật trong Cài đặt > Bảo mật. NovaCloud hỗ trợ ứng dụng Authenticator (TOTP) và SMS. Khi bật 2FA, hệ thống cấp 10 mã dự phòng dùng một lần để đăng nhập khi mất thiết bị."
+      ]
+    },
+    {
+      "id": "doc_billing",
+      "title": "Gói cước & thanh toán",
+      "chunks": [
+        "NovaCloud có 3 gói: Free (5GB), Pro (200.000đ/tháng, 1TB) và Business (500.000đ/tháng, 5TB). Thanh toán qua thẻ tín dụng hoặc ví MoMo. Hóa đơn được xuất tự động vào đầu mỗi kỳ.",
+        "Khi nâng cấp gói giữa kỳ, phần chênh lệch được tính theo tỉ lệ số ngày còn lại của kỳ (proration). Việc hạ cấp gói chỉ có hiệu lực vào kỳ thanh toán kế tiếp."
+      ]
+    },
+    {
+      "id": "doc_refund",
+      "title": "Chính sách hoàn tiền",
+      "chunks": [
+        "Chính sách hoàn tiền: yêu cầu hoàn tiền trong vòng 14 ngày kể từ ngày thanh toán đầu tiên sẽ được hoàn 100%. Sau 14 ngày, NovaCloud không hỗ trợ hoàn tiền cho kỳ đã thanh toán."
+      ]
+    },
+    {
+      "id": "doc_storage",
+      "title": "Giới hạn dung lượng",
+      "chunks": [
+        "Khi vượt quá dung lượng của gói, bạn không thể tải lên file mới nhưng vẫn truy cập và tải xuống các file hiện có. Hãy nâng cấp gói hoặc xóa bớt file để giải phóng dung lượng."
+      ]
+    },
+    {
+      "id": "doc_sharing",
+      "title": "Chia sẻ file & phân quyền",
+      "chunks": [
+        "Bạn có thể chia sẻ file qua liên kết hoặc mời theo email. Các quyền gồm: Người xem (chỉ đọc), Người chỉnh sửa và Chủ sở hữu. Liên kết chia sẻ có thể đặt thêm mật khẩu và ngày hết hạn."
+      ]
+    },
+    {
+      "id": "doc_export",
+      "title": "Xuất & sao lưu dữ liệu",
+      "chunks": [
+        "Để xuất toàn bộ dữ liệu, vào Cài đặt > Dữ liệu > Yêu cầu xuất. Hệ thống chuẩn bị một file nén .zip trong vòng 24 giờ và gửi liên kết tải về qua email; liên kết này có hiệu lực trong 7 ngày."
+      ]
+    },
+    {
+      "id": "doc_delete_account",
+      "title": "Xóa tài khoản",
+      "chunks": [
+        "Xóa tài khoản trong Cài đặt > Tài khoản > Xóa tài khoản. Sau khi xác nhận, dữ liệu được giữ 30 ngày trước khi xóa vĩnh viễn; trong thời gian này bạn có thể khôi phục bằng cách đăng nhập lại."
+      ]
+    },
+    {
+      "id": "doc_platforms",
+      "title": "Nền tảng hỗ trợ",
+      "chunks": [
+        "NovaCloud có ứng dụng cho Windows, macOS, Linux, iOS và Android, cùng với phiên bản web. Dữ liệu được đồng bộ tự động giữa các thiết bị khi đăng nhập cùng một tài khoản."
+      ]
+    },
+    {
+      "id": "doc_api",
+      "title": "API & tích hợp",
+      "chunks": [
+        "API NovaCloud theo chuẩn REST, xác thực bằng API key tạo trong Cài đặt > Nhà phát triển. Giới hạn mặc định là 1.000 request/giờ cho gói Pro và 10.000 request/giờ cho gói Business."
+      ]
+    },
+    {
+      "id": "doc_support",
+      "title": "Giờ hỗ trợ & liên hệ",
+      "chunks": [
+        "Bộ phận hỗ trợ hoạt động từ 8h đến 22h hằng ngày (giờ Việt Nam). Liên hệ qua chat trong ứng dụng hoặc email support@nova.cloud. Riêng gói Business có hỗ trợ ưu tiên 24/7."
+      ]
+    },
+    {
+      "id": "doc_security",
+      "title": "Bảo mật & mã hóa",
+      "chunks": [
+        "Dữ liệu được mã hóa AES-256 khi lưu trữ và TLS 1.3 khi truyền tải. NovaCloud không bao giờ yêu cầu mật khẩu của bạn qua email hoặc điện thoại."
+      ]
+    },
+    {
+      "id": "doc_trial",
+      "title": "Dùng thử miễn phí",
+      "chunks": [
+        "Người dùng mới được dùng thử gói Pro miễn phí trong 14 ngày, không cần thẻ tín dụng. Sau khi hết hạn dùng thử, tài khoản tự động chuyển về gói Free."
+      ]
+    },
+    {
+      "id": "doc_promo",
+      "title": "Khuyến mãi mùa hè (MÂU THUẪN có chủ đích)",
+      "chunks": [
+        "Chương trình khuyến mãi mùa hè: người dùng đăng ký mới được dùng thử gói Pro tới 30 ngày.",
+        "Trong thời gian khuyến mãi mùa hè, gói Pro có giá ưu đãi chỉ còn 150.000đ/tháng."
+      ]
+    },
+    {
+      "id": "doc_notifications",
+      "title": "Thông báo",
+      "chunks": [
+        "Bạn có thể quản lý thông báo email và thông báo đẩy trong Cài đặt > Thông báo. Riêng thông báo bảo mật (ví dụ đăng nhập từ thiết bị lạ) luôn được bật và không thể tắt."
+      ]
+    }
+  ]
+}
